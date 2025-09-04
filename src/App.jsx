@@ -282,11 +282,7 @@ export default function App() {
                 {lang === "en" ? "Learn more" : "En savoir plus"}
               </a>
             </div>
-            <div className="mt-10 grid max-w-md grid-cols-3 gap-6">
-              <Kpi value={<CountUp to={38} suffix="+" />} label={T.stats.sites[lang]} />
-              <Kpi value={<CountUp to={22} />} label={T.stats.costs[lang]} />
-              <Kpi value={<CountUp to={98} suffix="%" />} label={T.stats.sat[lang]} />
-            </div>
+            
           </motion.div>
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 }}>
             <div className="relative">
