@@ -282,7 +282,6 @@ export default function App() {
                 {lang === "en" ? "Learn more" : "En savoir plus"}
               </a>
             </div>
-            
           </motion.div>
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 }}>
             <div className="relative">
@@ -555,7 +554,7 @@ export default function App() {
             </Card>
             <div className="overflow-hidden rounded-2xl border border-neutral-200">
               {/* Replace with an <iframe> of Google Maps if you want */}
-              <div className="aspect-[4/3] w-full bg-[url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop')] bg-cover bg-center" />
+              <img src="/projects/imageTest.jpeg" alt="Workers" className="h-full w-full object-cover" loading="lazy" />
             </div>
           </div>
         </div>
