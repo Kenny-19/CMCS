@@ -1,19 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-/**
- * CMCS – One‑page site (enhanced)
- *
- * What’s new vs your base:
- * - Hero: autoplay carousel + rotating slogans
- * - About: animated counters
- * - Chairman: structured layout (Résumé + Lire plus), timeline, quote, values
- * - Projects: category filter
- * - Contact: richer form + map placeholder
- * - Footer: quick links
- *
- * Drop your images in /public/images/ ...
- */
+ 
 
 const NAV = [
   { key: "about", en: "About", fr: "À propos" },
